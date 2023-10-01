@@ -6,7 +6,7 @@ tags: [ puppet, http, proxy, ssl, security, file, metadata, md5, checksum, mtime
 
 ### Overview
 
-In the [introductory post](/post/2015/12/21/building-http-support/) about the new
+In the [introductory post](/post/2015-12-21-building-http-support/) about the new
 support for `source => "http://..."` parameters in Puppet's `file` resource type,
 I promised a follow-up that would explain the technical details of the implementation.
 This is not that post.
@@ -33,7 +33,7 @@ You will likely notice that Puppet keeps presenting a message like the following
 This does not appear to be sensible and might actually look like a bug. Why is an MD5 sum compared
 to a time stamp? Well, it's not a bug - it is indeed a feature.
 
-The fundamental problem (see the [previous post](/post/2015/12/21/building-http-support/))
+The fundamental problem (see the [previous post](/post/2015-12-21-building-http-support/))
 is that the HTTP server will not supply 
 a full set of metadata to the agent. On the contrary - most web servers will not even
 include the MD5 sum of the server-side file in the response headers. Fortunately, the

@@ -132,7 +132,7 @@ func init() {
 
 The new `msg` resource maps quite well to Puppet's `notify`. These were the
 steps to arrive at the translator code using the [translator
-DSL](/post/2016/06/12/puppet,-meet-mgmt/):
+DSL](/post/2016-06-12-puppet-meet-mgmt/):
 
  1. The translated type is `notify` and it results in a `msg`.
 

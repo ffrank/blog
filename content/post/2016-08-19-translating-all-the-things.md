@@ -138,7 +138,7 @@ False positives like these are a pet peeve of mine. Even in moderate numbers, th
 can render a monitoring or logging system practically unusable. Avoid if
 at all possible. In the case of resource translators, this called for a means
 to declare a white-list of attributes that can just pass without comment.
-It takes the following form in [translator DSL](/post/2016/06/12/puppet,-meet-mgmt/):
+It takes the following form in [translator DSL](/post/2016-06-12-puppet-meet-mgmt/):
 
 ```ruby
 ignore :validate_replacement, :provider, :sourceselect

@@ -26,7 +26,7 @@ My motivation nonwithstanding, I built a new feature for
 [mgmt](https://github.com/purpleidea/mgmt/).
 
 Specifically, I meant to implement an
-[idea](/post/2018/02/13/thinking-about-migration-from-puppet-to-mgmt/)
+[idea](/post/2018-02-13-thinking-about-migration-from-puppet-to-mgmt/)
 that was hatched during Config Management Camp 2018.
 It's about allowing mgmt to run code that is mixed from Puppet's DSL
 and mgmt's own language. This article is mainly about code,
@@ -679,7 +679,7 @@ of generating a graph out of two existing ones, implemented in the
 `mergeGraphs` function (see the last step of the `Graph` method above).
 
 The algorithm for allowing useful graph merging was described
-[in an earlier post](/post/2018/02/13/thinking-about-migration-from-puppet-to-mgmt/).
+[in an earlier post](/post/2018-02-13-thinking-about-migration-from-puppet-to-mgmt/).
 If you intend to follow along with the logic here, I suggest you read
 that article first (the last part, that is).
 The general approach is to build a new graph by
