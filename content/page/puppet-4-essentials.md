@@ -5,14 +5,14 @@ date: 25-06-2017
 
 A short introduction to my second book project, Puppet 4 Essentials - Second Edition, available from Packt Publishing.
 
-**Update:** Read this amazing [review](/puppet-essentials/review.html) that the illustrious
+**Update:** Read this amazing [review](/page/puppet-essentials-review.html) that the illustrious
 [John Arundel](http://bitfieldconsulting.com/about) kindly wrote for me.
 
 ## The next generation
 
 ![Puppet 4 Essentials Cover](https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/1107OS_4980_Puppet%20Essentials%20Second%20Edition.jpg)
 
-This book is very similar to [Puppet Essentials](/puppet-essentials/index.html) (its first edition)
+This book is very similar to [Puppet Essentials](/page/puppet-essentials/) (its first edition)
 but worth your while for the following reasons:
 
  * added way more diagrams for easier comprehension

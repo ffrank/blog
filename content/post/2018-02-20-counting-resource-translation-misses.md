@@ -6,7 +6,7 @@ tags: [ puppet, mgmt, catalog, graph ]
 
 This is another post in the wake of CfgMgmtCamp 2018, where the mgmt hack room
 saw lively discussion that inspired
-[some new ideas](/features/2018-02-13-thinking-about-migration-from-puppet-to-mgmt/)
+[some new ideas](/post/2018-02-13-thinking-about-migration-from-puppet-to-mgmt/)
 as well as reminding me of some ideas I had last year, but didn't manage to implement
 or describe yet. This post is about one of those.
 
@@ -16,7 +16,7 @@ Even though we now have a slick [Puppet module](https://forge.puppet.com/ffrank/
 that allows early adopters and testers to run mgmt from Puppet manifest code, our
 ability to run existing, complex manifests is somewhat limited. We *will* run pretty
 much any code, but many resources will not be compatible with mgmt's current limited
-feature set. I wrote about this [earlier](/features/2016-08-19-translating-all-the-things/).
+feature set. I wrote about this [earlier](/post/2016-08-19-translating-all-the-things/).
 
 Puppet supports a large number of resource types, many of them implemented in third party
 modules. The set in mgmt is limited, and will likely not match the Puppet ecosystem
@@ -74,7 +74,7 @@ the number of these pseudo-translations.
 ### The solution
 
 We need to collect data about how well the translator works. I touched on this in the
-[earlier post](/features/2016-08-19-translating-all-the-things/) I mentioned above.
+[earlier post](/post/2016-08-19-translating-all-the-things/) I mentioned above.
 There are two numbers that are of interest: First, what are the resource types that
 most frequently run into the `puppet resource` workaround because there is no
 counterpart in mgmt. In essence, this should give us a prioritized list of resources

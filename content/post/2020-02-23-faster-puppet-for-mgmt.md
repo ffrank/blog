@@ -271,7 +271,7 @@ emphatically recommend to do the same.
 
 The document that finally clicked for me is [this blog entry about testable
 golang programs](https://relistan.com/writing-testable-apps-in-go) by [Karl
-Matthias](twitter.com/relistan). Not only does it explain the ideas of
+Matthias](https://twitter.com/relistan). Not only does it explain the ideas of
 dependency injection very vividly, it also finally made me understand some of
 the ways in which golang uses interfaces.
 

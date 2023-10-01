@@ -70,7 +70,7 @@ a nice summary. Still, in retrospect, I guess I would have gotten more out of
 [Monty Taylor's](https://twitter.com/e_monty) OpenStack developer talk.
 
 After using the lunch break to get some background information from organizer
-[Robert Sander](inside://twitter.com/gurubert), I went on to listen to community
+[Robert Sander](https://twitter.com/gurubert), I went on to listen to community
 ambassador Marton Kiss about contributing and what's new with Gerrit (including
 delight when I spotted [Spencer's](https://twitter.com/nibalizer) name in some
 patch reviews). I heard an Arista rep explaining their take on Software Defined

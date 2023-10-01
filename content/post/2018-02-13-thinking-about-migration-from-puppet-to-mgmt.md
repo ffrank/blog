@@ -209,7 +209,7 @@ The easiest way that comes to mind is a scheme for defining certain resources
 that do nothing, but can be matched with counterparts in the other respective
 language. In mgmt, the `noop` resource is a nice example. In Puppet, it would
 be possible to allow the definition of empty classes with certain names. In an
-[earlier article](/features/2016/07/12/edging-it-all-in/), I already described
+[earlier article](/post/2016/07/12/edging-it-all-in/), I already described
 how Puppet's classes inject implicit resources into the graph, two so-called
 `whit`s representing the class's entry and exit point respectively. These are
 translated into `noop` resources for mgmt. Merging these should not require

@@ -1,8 +1,8 @@
 ---
 title: Puppet 4 Essentials Review
-date: 20-06-2017
+date: 2017-06-20
 ---
-*Guest contributor [John Arundel](http://bitfieldconsulting.com/about), a Puppet consultant and writer, reviews my book [Puppet 4 Essentials - Second Edition](/puppet-4-essentials/index.html).*
+*Guest contributor [John Arundel](http://bitfieldconsulting.com/about), a Puppet consultant and writer, reviews my book [Puppet 4 Essentials - Second Edition](/page/puppet-4-essentials/).*
 
 When I first started using Puppet, in late 2006, there were no Puppet books. There was barely any documentation. Now there are lots of books, and lots of documentation. These two things are quite different, of course. Documentation is for people who already understand the product, who know what they want to do, and just need to know how to do it.
 

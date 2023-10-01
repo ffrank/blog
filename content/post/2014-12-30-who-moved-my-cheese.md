@@ -80,7 +80,7 @@ For the curious, I once again ended up with a change of [Josh's](https://github.
 which is not surprising, seeing as he has done lots of work on the environment
 code throughout the whole switch to directory environments. Full disclosure,
 I have no clear idea how [968695](https://github.com/puppetlabs/puppet/commit/96869598009e1e39b122e65284006a428f91d97c)
-broke [this test](persona://github.com/ffrank/puppet/blob/6c3ab52c20f2777d2ee6138e4c786405c5560f9c/spec/integration/application/apply_spec.rb#L44-70),
+broke [this test](https://github.com/ffrank/puppet/blob/6c3ab52c20f2777d2ee6138e4c786405c5560f9c/spec/integration/application/apply_spec.rb#L44-70),
 but suspecting that the changes in `test_helper.rb` might be involved, I tried
 not fiddling with the `Puppet[:environmentpath]` setting in favor of working
 with what `rspec` gave me. [This](https://github.com/ffrank/puppet/blob/b161fb21731701e5485dbbbd4f7678ecb7481009/spec/integration/application/apply_spec.rb#L44-67) is what I ended up with.

@@ -10,7 +10,7 @@ blog, you will probably find yourself facing the proverbial no-brainer decision.
 Or perhaps that's just me. (If it is, you all should probably stop pondering so much
 about everyting, though.)
 
-This [review](/puppet-essentials/review.html) is so beautifully written, it warms my
+This [review](/page/puppet-essentials-review.html) is so beautifully written, it warms my
 heart and fills me with pride (seasoned with a hint of imposter syndrome). Today I feel
 like a child who just got a very shiny present.
 

@@ -6,10 +6,12 @@ date: 25-06-2017
 A short description of my book debut, Puppet Essentials, available from Packt Publishing.
 
 **Update:** I worked on a new edition called
-[Puppet 4 Essentials - Second Edition](/puppet-4-essentials/index.html)
+[Puppet 4 Essentials - Second Edition](/page/puppet-4-essentials/)
 
-**Update:** Read this amazing [review](/puppet-essentials/review.html) of the seconds edition that the illustrious
+**Update:** Read this amazing [review](/page/puppet-essentials-review) of the seconds edition that the illustrious
 [John Arundel](http://bitfieldconsulting.com/about) kindly wrote for me.
+
+**Update:** My book is rather dated at this point, so despite the enthusiasm of this post, please be sure to check the current options before buying.
 
 ## Yet another beginners' guide for Puppet
 
