@@ -6,13 +6,13 @@ tags: [ puppet, mgmt, dsl, ruby, go ]
 
 ### Welcome back
 
-I just realized that it has been almost 4 months since my [last post]({% post_url 2016-02-18-from-catalog-to-mgmt %}).
+I just realized that it has been almost 4 months since my [last post](/post/2016-02-18-from-catalog-to-mgmt/).
 If you missed it, you should probably read it before this one.
 I kicked off quite a bit of work then and much has come to fruition in the meantime.
 This is my report.
 
 **Update**: This post is quite extensive and covers the guts of the implementation.
-For a succinct overview of the new functionality, see the [follow-up]({% post_url 2016-06-19-puppet-powered-mgmt %}).
+For a succinct overview of the new functionality, see the [follow-up](/post/2016-06-19-puppet-powered-mgmt/).
 
 ### Clearing the TODO list
 

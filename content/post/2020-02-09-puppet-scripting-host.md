@@ -17,7 +17,7 @@ like `puppet resource`, which still implies heavy overhead.
 ## A faster `puppet resource` command
 
 Through my work on the Puppet integration in mgmt, I had need to [improve
-on the concept]({% post_url 2016-08-19-translating-all-the-things %}) of
+on the concept](/post/2016-08-19-translating-all-the-things/) of
 the `puppet resource` command before. It lacks support for all but the
 most plain and simple resources. To make it more universal, I supplemented it
 with the `puppet yamlresource` command from the `ffrank-yamlresource` Puppet

@@ -7,7 +7,7 @@ tags: [ puppet, rspec, catalog, logs, debug ]
 Running catalogs from RSpec tests is tricky. There are some examples
 in the existing test base that help doing it. One basic pattern goes like this:
 
-{% highlight ruby %}
+```
 describe SomeThing
   let(:catalog) { Puppet::Resource::Catalog.new }
   context "when doing something else" do
@@ -25,7 +25,7 @@ describe SomeThing
     end
   end
 end
-{% endhighlight %}
+```
 
 Of course, such tests can fail for various reasons. The test environment
 can be incredibly fragile at times. But since all the interesting things
@@ -37,14 +37,14 @@ to collect all log output in the special member variable `@logs`.
 The easiest way (that I know of) to examine this data in a failing test
 is temporarily raising it as an exception.
 
-{% highlight ruby %}
+```
 it "behaves a certain way" do
   catalog.add_resource(resource)
   catalog.apply
   raise "#{logs * "\n"}"
   expect( check_result() ).to be_truthy
 end
-{% endhighlight %}
+```
 
 When this test is run, it will fail due to the unexpected exception,
 dumping the exception details on the terminal. These details consist

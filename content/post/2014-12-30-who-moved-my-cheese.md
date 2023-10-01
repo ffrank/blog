@@ -20,10 +20,10 @@ chagrin when Travis failed on my branch.
 I quickly discerned where I had gone wrong and touched the code up. A local
 spec run was succesful. Yay! Do the dance:
 
-{% highlight bash %}
+```
 git commit -am fixup
 git rebase -i origin/master
-{% endhighlight %}
+```
 
 Squashed the fix into the appropriate commit in my branch and pushed to
 GitHub. This should have been it.
@@ -33,9 +33,9 @@ I was disappointed. Had it not worked? Were my changes not pushed? Nope, the che
 matched my local repository. Had I made a mistake when verifying the fix locally?
 Engage time machine:
 
-{% highlight bash %}
+```
 git reflog
-{% endhighlight %}
+```
 
 Checking out the state before that rebase cleared things up: Yes, my fix to the spec
 had worked. No, it would not work after the rebase. Some upstream change re-broke
@@ -43,7 +43,7 @@ my test. What fun.
 
 ### Running bisection
 
-I had presented a bisection in an [earlier post]({% post_url 2014-09-26-applying-external-nodes %})
+I had presented a bisection in an [earlier post](/post/2014-09-26-applying-external-nodes/)
 but let's do this again, because
 
 * it bears repeating
@@ -60,7 +60,7 @@ The idea for bisecting this kind of issue is based around this workflow:
 An easy way to apply changes from a branch to the current HEAD,
 with the option to trivially undo that, is `git-cherry-pick` in no-commit mode:
 
-{% highlight bash %}
+```
 #!/bin/bash
 
 git cherry-pick -n 3c8fb2417 .. 253f52296
@@ -68,7 +68,7 @@ bundle exec rspec spec/integration/application/apply_spec.rb:44
 RC=$?
 git checkout -f
 exit $RC
-{% endhighlight %}
+```
 
 The actual test is running `rspec` through Bundler, of course. The hashes
 belong to the head of my branch when it still worked, and its branch point

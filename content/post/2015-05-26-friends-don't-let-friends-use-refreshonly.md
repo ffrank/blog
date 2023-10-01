@@ -14,13 +14,13 @@ Puppet's abstraction model breaks this down into an arbitrary set
 of discrete *resources*. Each resource describes a specific piece
 of system state.
 
-{% highlight puppet %}
+```
 file {
 	'/etc/shadow':
 		owner => 'root',
 		mode  => '0600',
 }
-{% endhighlight %}
+```
 
 This approach is oft proven to yield very maintainable and readable
 code. But of course, setting up a piece of software on a machine
@@ -30,13 +30,13 @@ is required before some resources can be synchronized at all.
 
 Enter the `exec` type, one of the less typical resource types in Puppet.
 
-{% highlight puppet %}
+```
 exec {
 	'apt-get update':
 		logoutput   => 'on_failure',
 		before      => Package['from-new-repo'],
 }
-{% endhighlight %}
+```
 
 It does not so much represent a state that Puppet can figure out
 how to reach. Instead, it gives the user the opportunity to tell
@@ -56,7 +56,7 @@ then run command Y, *then* command Z and finally start the service",
 it is tempting to translate this into a manifest verbatim.
 
 
-{% highlight puppet %}
+```
 class software_x {
 	package { 'X': ensure => installed }
 	->
@@ -66,7 +66,7 @@ class software_x {
 	->
 	service { 'X': ensure => 'running', enable => true }
 }
-{% endhighlight %}
+```
 
 The commands should run *only* during initial setup. The easy
 way to achieve this is to
@@ -77,7 +77,7 @@ way to achieve this is to
 In simple manifests like this one, the *notify* can be expressed
 by the modified dependency arrow `~>`.
 
-{% highlight puppet %}
+```
 class software_x {
 	package { 'X': ensure => installed }
 	~>
@@ -87,13 +87,13 @@ class software_x {
 	->
 	service { 'X': ensure => 'running', enable => true }
 }
-{% endhighlight %}
+```
 
 In a perfect world, this will do just what you expect, but
 this structure is quite fragile. Consider the following
 resource that may be part of the same manifest.
 
-{% highlight puppet %}
+```
 class sys_setup {
 	package {
 		'site-definitions':
@@ -101,7 +101,7 @@ class sys_setup {
 			before => Exec['Y'],
 	}
 }
-{% endhighlight %}
+```
 
 This is contrived, but a similar structure can just emerge
 in real life, especially when there are a couple of relationships

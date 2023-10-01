@@ -94,7 +94,7 @@ compact on the command line.
 ### Now what
 
 All right, we now have rules to accept not only [all class and resource
-relationships]({% post_url 2016-07-12-edging-it-all-in %}), there is even a way
+relationships](/post/2016-07-12-edging-it-all-in/), there is even a way
 to usher all the resources over to `mgmt`, if only to have them handed right
 back to Puppet in the end. Does that mean that we can go ahead and throw
 any manifest at the translator and let `mgmt` run along? Not quite.

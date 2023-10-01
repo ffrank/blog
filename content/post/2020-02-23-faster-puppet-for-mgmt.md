@@ -18,7 +18,7 @@ rely on it when required.
 ## Ensuring semantics
 
 I have blogged quite extensively about the [Puppet compatibility
-layers]({% post_url 2018-02-13-thinking-about-migration-from-puppet-to-mgmt %})
+layers](/post/2018-02-13-thinking-about-migration-from-puppet-to-mgmt/)
 for [mgmt](https://github.com/purpleidea/mgmt)
 in the past. They work because the most important core resource types from
 Puppet (such as `file` and `package`) can be found in mgmt as well. We expect
@@ -53,7 +53,7 @@ file { "/etc/motd":
 ```
 
 To provide for such resources, we implemented [a
-workaround]({% post_url 2016-08-19-translating-all-the-things %}) that would
+workaround](/post/2016-08-19-translating-all-the-things/) that would
 substitute such unsupported resources with a stand-in. The idea was to let
 Puppet do the work of synchronizing these resources. The basic approach was
 to generate `exec` resources that roughly do the following:
@@ -66,7 +66,7 @@ exec "substitute Cron[refresh-my-stuff]" {
 The actual implementation is a little more involved (see article linked above),
 and had me introduce the `puppet yamlresource` face. We have recently boosted
 its performance using [a new
-subcommand]({% post_url 2020-02-09-puppet-scripting-host %}) `puppet
+subcommand](/post/2020-02-09-puppet-scripting-host/) `puppet
 yamlresource receive`. It allows users or programs to send resource
 descriptions directly to Puppet's stdin stream. Puppet will sync these
 resources directly and immediately, one by one.
@@ -211,7 +211,7 @@ directly to Puppet, wrapped in a JSON object, along with the `Type` and
 `Title` of the resource. Puppet does not really require the JSON wrapping,
 but it is done in order to avoid any whitespace issues. (For more details,
 I would direct you to the [article about `puppet yamlresource
-receive`]({% post_url 2020-02-09-puppet-scripting-host %}) again.)
+receive`](/post/2020-02-09-puppet-scripting-host/) again.)
 This unusual practice is why the `PippetRes struct` contains JSON field tags.
 You will not find these in most mgmt resource structs.
 

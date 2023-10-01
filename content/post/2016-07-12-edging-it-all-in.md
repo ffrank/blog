@@ -10,14 +10,14 @@ the translated resources. This falls short for many catalogs, of course,
 because dependencies must often put whole classes in order, or do the same
 for instances of defined types.
 
-Allowing the [translator module]({% post_url 2016-06-19-puppet-powered-mgmt %})
+Allowing the [translator module](/post/2016-06-19-puppet-powered-mgmt/)
 to accept such macro-dependencies was not much work, but it did require some
 intense digging. Before I describe this process, let's take another look at
 what happened so far.
 
 ### Review: Arriving at the original implementation
 
-When I first wrote about [mgmt integration with Puppet]({% post_url 2016-02-18-from-catalog-to-mgmt %}),
+When I first wrote about [mgmt integration with Puppet](/post/2016-02-18-from-catalog-to-mgmt/),
 I already showed my approach to analyzing the catalog.
 It's really what anybody should do when looking at the details of a Ruby
 code base: Fire up `pry` and step right *into* the objects in question.
@@ -326,7 +326,7 @@ and the new one would be all `noop` vertices.
 I actually entertained the thought of filtering some of these default classes and the stage, but this would require
 an inacceptable amount of added code complexity. After all, this generated YAML is for
 running through `mgmt`, and not for casual editing after the fact. As described
-[earlier]({% post_url 2016-06-19-puppet-powered-mgmt %}), the Puppet translator is now
+[earlier](/post/2016-06-19-puppet-powered-mgmt/), the Puppet translator is now
 a first class citizen of `mgmt`, so that the YAML does not even need to be saved.
 
 Of course, the translation can never be perfect, so you may have need to alter the

@@ -349,7 +349,7 @@ all.
 
 In order to get a better feel for whatever etcd is doing here, I want some more
 direct access. From an [earlier
-adventure]({% post_url 2020-03-09-getting-etcd-back %}) I still have this
+adventure](/post/2020-03-09-getting-etcd-back/) I still have this
 `etcdctl` binary around. It graciously connects to a fresh instance of
 
 ```

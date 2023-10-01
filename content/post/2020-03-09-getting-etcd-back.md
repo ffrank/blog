@@ -5,7 +5,7 @@ tags: [ mgmt, etcd, debugging ]
 ---
 
 In the [previous
-post]({% post_url 2020-03-01-attempting-some-resource-collecting %}) I ran into
+post](/post/2020-03-01-attempting-some-resource-collecting/) I ran into
 an issue with the YAML example graphs for the etcd functionality not really
 working anymore. Coming up with a solution in these graphs was not hard (and in
 fact proved an opportunity to learn a few things along the way). However, I did

@@ -5,7 +5,7 @@ tags: [ mgmt, yaml, graph, etcd, cluster ]
 ---
 
 After some adventures [building a new
-feature]({% post_url 2020-02-23-faster-puppet-for-mgmt %}) for mgmt's
+feature](/post/2020-02-23-faster-puppet-for-mgmt/) for mgmt's
 Puppet support, and making [a presentation including live
 demos](http://ffrank.github.io/presentations/2020-02-puppet-from-mgmt-on-overdrive/puppet-mgmt-overdrive.html)
 about it, I find myself quite impressed with how far mgmt's interface and its
@@ -237,7 +237,7 @@ that collects different resources in different ways for that matter.
 Regardless of these findings, I got quite curious how this whole thing was
 actually implemented. So I traced the YAML unmarshalling to see where this would
 lead me. It was helpful that the GAPI code is one of the parts of mgmt that I am
-[already familiar]({% post_url 2020-02-06-building-the-code-mixer %})
+[already familiar](/post/2020-02-06-building-the-code-mixer/)
 with.
 
 In `yamlgraph/gconfig.go`, the function `NewGraphFromConfig` is responsible for

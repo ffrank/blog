@@ -4,7 +4,7 @@ date: 2020-03-15
 tags: [ mgmt, etcd, local state, history ]
 ---
 
-In the [previous post]({% post_url 2020-03-09-getting-etcd-back %}), you got to
+In the [previous post](/post/2020-03-09-getting-etcd-back/), you got to
 watch me try and get to the bottom of a suspected bug in mgmt or its embedded
 etcd server. What I found was an FAQ entry to match my issue, and some limited
 knowledge about etcd's go packages for embedding servers in other software.

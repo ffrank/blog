@@ -41,7 +41,7 @@ as little friction as possible. There were several immediate questions.
 * Will I have to rewrite the manifests eventually?
 * Can I mix native mgmt code with translated Puppet code in the interim?
 
-You may have seen my [earlier posts](/features/2016/08/19/translating-all-the-things/)
+You may have seen my [earlier posts](/post/2016-08-19-translating-all-the-things/)
 about the Puppet language translator.
 (It's been a while. This is me trying to make 2018 the year I actively
 work on Open Source software again.)
