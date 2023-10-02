@@ -1,5 +1,5 @@
 ---
-title: Turning Puppet'S Http Support Up A Notch
+title: Turning Puppet's HTTP Support Up A Notch
 date: 2015-03-04
 tags: [ puppet, http, proxy, ssl, security ]
 ---

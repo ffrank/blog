@@ -1,5 +1,5 @@
 ---
-title: Friends Don'T Let Friends Use Refreshonly
+title: Friends Don't Let Friends Use Refreshonly
 date: 2015-05-26
 tags: [ puppet, exec, parameter, dependencies ]
 ---
