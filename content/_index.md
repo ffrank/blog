@@ -1,2 +1,2 @@
-## Front Page Content
-`beautifulhugo` supports content on your front page. Edit `/content/_index.md` to change what appears here. Delete `/content/_index.md` if you don't want any content here.
+This is the blog formerly found at ffrank.github.io.
+Logo credit: nature by Flatart from <a href="https://thenounproject.com/browse/icons/term/nature/" target="_blank" title="nature Icons">Noun Project</a> (CC BY 3.0)

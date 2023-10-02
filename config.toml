@@ -15,8 +15,8 @@ pygmentsCodefencesGuessSyntax = true
   homeTitle = "Felix' Blog"
   subtitle = "Musings on tech, people, and life"
   mainSections = ["post","posts"]
-  logo = "img/avatar-icon.png" # Expecting square dimensions
-  favicon = "img/favicon.ico"
+  logo = "img/icon.svg"
+  favicon = "img/icon.svg"
   dateFormat = "January 2, 2006"
   commit = false
   rss = true
@@ -46,7 +46,7 @@ pygmentsCodefencesGuessSyntax = true
 [Author]
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
   name = "Felix Frank"
-  website = "felix-frank.net"
+  website = "https://felix-frank.net"
   email = "info@felix-frank.net"
   #facebook = "username"
   github = "ffrank"
