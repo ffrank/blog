@@ -1,5 +1,6 @@
 ---
 title: Counting Resource Translation Misses
+subtitle: Our roadmap to get mgmt into a state to more properly substitute parts of Puppet.
 date: 2018-02-20
 tags: [ puppet, mgmt, catalog, graph ]
 ---

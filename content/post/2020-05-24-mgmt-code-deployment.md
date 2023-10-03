@@ -1,5 +1,6 @@
 ---
 title: Mgmt Code Deployment
+subtitle: How will an mgmt cluster be used in real life? Let's find out.
 date: 2020-05-24
 tags: [ mgmt, etcd, code ]
 ---

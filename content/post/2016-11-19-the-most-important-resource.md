@@ -1,5 +1,6 @@
 ---
 title: The Most Important Resource
+subtitle: A short recount of writing a new resource for mgmt.
 date: 2016-11-19
 tags: [ puppet, mgmt, types, notify, msg, systemd, syslog ]
 ---

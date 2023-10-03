@@ -1,5 +1,6 @@
 ---
 title: Debugging Rspec Of Catalog Application
+subtitle: A simple trick for rspec debugging.
 date: 2015-03-23
 tags: [ puppet, rspec, catalog, logs, debug ]
 ---

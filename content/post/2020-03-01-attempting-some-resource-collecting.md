@@ -1,5 +1,6 @@
 ---
 title: Attempting Some Resource Collecting
+subtitle: Attempting the etcd clustering example and learning about mgmt resource exports
 date: 2020-03-01
 tags: [ mgmt, yaml, graph, etcd, cluster ]
 ---

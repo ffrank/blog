@@ -1,5 +1,6 @@
 ---
 title: Guest Post By John Arundel
+subtitle: Read this spectacular guest article by John Arundel (bitfield on Twitter).
 date: 2017-06-25
 tags: [ puppet, book, plugs ]
 ---

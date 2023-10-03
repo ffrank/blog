@@ -1,5 +1,6 @@
 ---
 title: Thinking About Migration From Puppet To Mgmt
+subtitle: Some early musings on possible future migration paths from Puppet to mgmt.
 date: 2018-02-13
 tags: [ puppet, mgmt, catalog, graph ]
 ---

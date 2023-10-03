@@ -1,5 +1,6 @@
 ---
 title: Edging It All In
+subtitle: Of relationships between Puppet's classes and defines, and their translation to mgmt.
 date: 2016-07-12
 tags: [ puppet, mgmt, class, define, stage, dependency, edge, graph, catalog ]
 ---

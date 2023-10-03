@@ -1,5 +1,6 @@
 ---
 title: An Actual Cluster
+subtitle: Extending the automatic clustering example to make it work in an actual network
 date: 2020-04-02
 tags: [ mgmt, etcd, network ]
 ---

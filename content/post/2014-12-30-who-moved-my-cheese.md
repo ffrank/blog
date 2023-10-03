@@ -1,5 +1,6 @@
 ---
 title: Who Moved My Cheese
+subtitle: Another tale of history bisection in the search for the root of today's problems.
 date: 2014-12-30
 tags: [puppet, bugs, git, rebase, bisect, testing]
 ---

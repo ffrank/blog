@@ -1,5 +1,6 @@
 ---
 title: Friends Don't Let Friends Use Refreshonly
+subtitle: An overview of the (ab-)uses for the refreshonly parameter to Puppet's exec type.
 date: 2015-05-26
 tags: [ puppet, exec, parameter, dependencies ]
 ---

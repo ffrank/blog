@@ -1,5 +1,6 @@
 ---
 title: On Bad Ad Hoc Theories
+subtitle: A response to an irresponsible COVID-19 post
 date: 2020-03-15
 tags: [ blogs, blogging, empathy ]
 ---

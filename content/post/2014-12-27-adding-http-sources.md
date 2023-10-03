@@ -1,5 +1,6 @@
 ---
 title: Adding Http Sources
+subtitle: Moving towards HTTP support in Puppet's file resource type.
 date: 2014-12-27
 tags: [ puppet, file, http, indirector ]
 ---

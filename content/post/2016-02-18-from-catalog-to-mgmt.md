@@ -1,5 +1,6 @@
 ---
 title: From Catalog To Mgmt
+subtitle: An account of the way towards the Puppet "transpiler" for mgmt.
 date: 2016-02-18
 tags: [ puppet, catalog, compiler, mgmt, graph ]
 ---

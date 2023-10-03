@@ -1,5 +1,6 @@
 ---
 title: Purging Unnamed Sshkeys
+subtitle: On the clashing of generated resource titles, and how to deal.
 date: 2014-12-15
 tags: [ puppet, bugs, ssh, keys, purging ]
 ---

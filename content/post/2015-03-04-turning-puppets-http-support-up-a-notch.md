@@ -1,5 +1,6 @@
 ---
 title: Turning Puppet's HTTP Support Up A Notch
+subtitle: A non-exhaustive summary and outlook on Puppet's HTTP client capabilities.
 date: 2015-03-04
 tags: [ puppet, http, proxy, ssl, security ]
 ---

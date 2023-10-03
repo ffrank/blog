@@ -1,5 +1,6 @@
 ---
 title: Applying External Nodes
+subtitle: Learning environment basics, with a bold venture into the brave new world of directory environments.
 date: 2014-09-26
 tags: [ puppet, bug, apply, environments ]
 ---

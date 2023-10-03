@@ -1,5 +1,6 @@
 ---
 title: Puppet, Meet Mgmt
+subtitle: An update on the bridge between Puppet and mgmt.
 date: 2016-06-12
 tags: [ puppet, mgmt, dsl, ruby, go ]
 ---

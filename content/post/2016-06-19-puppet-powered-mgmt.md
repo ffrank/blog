@@ -1,5 +1,6 @@
 ---
 title: Puppet Powered Mgmt
+subtitle: An quick overview of what mgmt can do with Puppet by now.
 date: 2016-06-19
 tags: [ puppet, catalog, compiler, mgmt, graph ]
 ---

@@ -1,5 +1,6 @@
 ---
 title: Puppet Scripting Host
+subtitle: Introducing a new mode of running Puppet and syncing resources
 date: 2020-02-09
 tags: [ puppet, module, resource, shell ]
 ---

@@ -1,5 +1,6 @@
 ---
 title: Disentangling Etcd Servers
+subtitle: Running tests with mgmt's embedded etcd server, learning about its local state directory
 date: 2020-03-15
 tags: [ mgmt, etcd, local state, history ]
 ---

@@ -1,5 +1,6 @@
 ---
 title: Translating All The Things
+subtitle: A misnomed post about running arbitrary Puppet code through mgmt.
 date: 2016-08-19
 tags: [ puppet, mgmt, resource, type, types, notify, cron, default ]
 ---

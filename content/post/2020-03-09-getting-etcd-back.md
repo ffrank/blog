@@ -1,5 +1,6 @@
 ---
 title: Getting Etcd Back
+subtitle: Finding out while the embedded etcd server in mgmt 0.21 will not start, by reading code and documentation
 date: 2020-03-09
 tags: [ mgmt, etcd, debugging ]
 ---

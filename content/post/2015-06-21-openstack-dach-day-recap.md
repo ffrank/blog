@@ -1,5 +1,6 @@
 ---
 title: Openstack Dach Day Recap
+subtitle: A quick review of the first annual OpenStack DACH Day Berlin.
 date: 2015-06-21
 tags: [ conference, log, foss, openstack ]
 ---

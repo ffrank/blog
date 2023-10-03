@@ -1,5 +1,6 @@
 ---
 title: The Belgium Conferences 2015 Edition
+subtitle: A thoroughly biased summary and travel log of FOSDEM and Config Management Camp 2015.
 date: 2015-02-20
 tags: [ fosdem, cfgmgmtcamp, conference, log, foss, puppet ]
 ---

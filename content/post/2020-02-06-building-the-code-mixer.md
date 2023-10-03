@@ -1,5 +1,6 @@
 ---
 title: Building The Code Mixer
+subtitle: A deep dive into the development of a new and unusual mgmt GAPI
 date: 2020-02-06
 tags: [ mgmt, puppet, graph, language, compiler ]
 ---

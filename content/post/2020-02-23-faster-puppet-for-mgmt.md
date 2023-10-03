@@ -1,5 +1,6 @@
 ---
 title: Faster Puppet For Mgmt
+subtitle: Explaining the improved puppet resource workaround in mgmt
 date: 2020-02-23
 tags: [ mgmt, puppet, resource, pippet ]
 ---

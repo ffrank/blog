@@ -1,5 +1,6 @@
 ---
 title: Building Http Support
+subtitle: An account of the creation of yet another long awaited feature. First part of two.
 date: 2015-12-21
 tags: [ puppet, bugs, features, code ]
 ---

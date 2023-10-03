@@ -1,5 +1,6 @@
 ---
 title: Using Http Files
+subtitle: A quick guide to make the most of HTTP file sources in Puppet.
 date: 2016-02-06
 tags: [ puppet, http, proxy, ssl, security, file, metadata, md5, checksum, mtime ]
 ---

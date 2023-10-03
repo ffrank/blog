@@ -1,5 +1,6 @@
 ---
 title: Master Load Balancing
+subtitle: Brief explanation of load balancing approaches with a discussion of applicability to the Puppet master - debunking my own ad hoc ramblings.
 date: 2015-04-27
 tags: [ puppet, master, http, ssl, loadbalancing ]
 ---
