@@ -1,4 +1,4 @@
-baseurl = "https://blog.felix-frnak.net"
+baseurl = "https://blog.felix-frank.net"
 DefaultContentLanguage = "en"
 title = "Felix' Blog"
 theme = "beautifulhugo"
